@@ -29,11 +29,28 @@ HEADERS = {
 }
 
 def get_zones():
-    """Fetch all zones (domains) in the Cloudflare account."""
+    """Fetch all zones (domains) in the Cloudflare account with pagination."""
     url = f"{BASE_URL}/zones"
-    response = requests.get(url, headers=HEADERS)
-    response.raise_for_status()
-    return response.json()["result"]
+    zones = []
+    page = 1
+
+    while True:
+        params = {"page": page, "per_page": 50}  # Adjust `per_page` if needed
+        response = requests.get(url, headers=HEADERS, params=params)
+        response.raise_for_status()
+        data = response.json()
+
+        zones.extend(data["result"])
+
+        # Check if there are more pages
+        result_info = data.get("result_info", {})
+        if result_info.get("page", 1) >= result_info.get("total_pages", 1):
+            break
+
+        page += 1
+
+    return zones
+
 
 def get_dns_records(zone_id):
     """Fetch all DNS records for a given zone."""
