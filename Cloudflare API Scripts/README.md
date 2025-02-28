@@ -5,8 +5,8 @@ File name: cloudflare-api-scropts-envs
 
 To setup
 ```sh
-pip install requests
-pip install python-dotenv
+pip3 install requests  --break-system-packages
+pip3 install python-dotenv  --break-system-packages
 
 ```
 
