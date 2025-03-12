@@ -1,2 +1,5 @@
 Image Compression/filesToCompress/*
 Image Compression/output/*
+
+
+!Image Compression/filesToCompress/! files here will not be added to git.md
