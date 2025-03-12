@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         GitHub PR Review Buttons
+// @name         GitHub - Peer Review Shortcuts
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Adds thumbs up and thumbs down buttons to automate GitHub PR reviews.
