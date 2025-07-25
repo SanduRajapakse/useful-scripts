@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pay Stub - ${payDate}</title>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+                body { font-family: 'Open Sans', sans-serif; margin: 20px auto; padding: 20px; max-width: 800px; background-color: #f9faff; color: #333; }
+                .container { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+                .header { text-align: right; margin-bottom: 20px; }
+                .logo { width: 120px; height: auto; margin-bottom: 10px; }
+                h2 { text-align: left; font-size: 22px; font-weight: 400; border-bottom: 3px solid #4a90e2; padding-bottom: 10px; color: #4a90e2; }
+                table { width: 100%; border-collapse: collapse; }
+                th, td { padding: 10px; text-align: left; font-size: 14px; }
+                th { background-color: #e3efff; color: #333; font-weight: 400; text-transform: uppercase; letter-spacing: 0.5px; }
+                td { border-bottom: 1px solid #ddd; vertical-align: top; }
+                .right { text-align: right; }
+                .footer { text-align: center; font-size: small; margin-top: 40px; color: #666; }
+                .page-number {text-align: right;}
+
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="header">
+                    <img src="${COMPANY_LOGO}" alt="Company Logo" class="logo">
+                    <h2>Statement of Earnings</h2>
+                </div>
+                <table>
+                    <tr>
+                        <th>Employer</th>
+                        <th>Employee</th>
+                        <th>Pay Details</th>
+                    </tr>
+                    <tr>
+                        <td><b>${COMPANY_NAME}</b><br>${COMPANY_ADDRESS}<br>Phone: ${COMPANY_PHONE}</td>
+                        <td><b>${EMPLOYEE_NAME}</b><br>${EMPLOYEE_ADDRESS}</td>
+                        <td>
+                            <b>Pay Period:</b> ${payPeriodStart} to ${payPeriodEnd}<br>
+                            <b>Pay Date:</b> ${payDate}<br>
+                            <b>Pay Total:</b> ${formatCurrency(PAY_PER_PERIOD)}<br>
+                            <b>Paid By:</b> ${PAY_METHOD}
+                        </td>
+                    </tr>
+                </table>
+                <h3>Earnings</h3>
+                <table>
+                    <tr><th>Description</th><th class="right">Amount</th><th class="right">Year to Date</th></tr>
+                    <tr><td>Gross Income</td><td class="right">${formatCurrency(PAY_PER_PERIOD)}</td><td class="right">${formatCurrency(YTD)}</td></tr>
+                </table>
+                <h3>Deductions</h3>
+                <table>
+                    <tr><td>Taxes</td><td class="right">$0.00</td><td class="right">$0.00</td></tr>
+                    <tr><td>Canada Pension Plan</td><td class="right">$0.00</td><td class="right">$0.00</td></tr>
+                    <tr><td>Employment Insurance</td><td class="right">$0.00</td><td class="right">$0.00</td></tr>
+                </table>
+                <h3>Net Income</h3>
+                <table><tr><th>Net Income</th><th class="right">${formatCurrency(PAY_PER_PERIOD)}</th></tr></table>
+                <div class="footer"><div>For any inquiries related to this document, please contact th@cannect.ca</div><div class="page-number">Page 1 of 1</div></div>
+            </div>
+        </body>
+        </html>

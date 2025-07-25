@@ -1,0 +1,8 @@
+originals/Xerox Scan_03172025151852.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151852.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151700.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151700.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151809.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151809.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151831.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151831.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151852.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151852.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151700.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151700.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151809.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151809.pdf: unable to find trailer dictionary while recovering damaged file
+originals/Xerox Scan_03172025151831.pdf: Cannot open with pikepdf - originals/Xerox Scan_03172025151831.pdf: unable to find trailer dictionary while recovering damaged file
