@@ -1,0 +1,11 @@
+==== Scheduler Test Log (-2025-07-29-_20-10-57) ==== 
+Timestamp: 2025-07-29 20:10:57.88 
+User: Sandu 
+Script is running from: C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingSync\ 
+File creation: SUCCESS 
+Computer Name: DESKTOP-2AQ9A7T 
+User Profile: C:\Users\Sandu 
+TEMP Dir: C:\Users\Sandu\AppData\Local\Temp 
+TEMP directory write: SUCCESS 
+Script completed at: 20:10:57.95 
+============================== 

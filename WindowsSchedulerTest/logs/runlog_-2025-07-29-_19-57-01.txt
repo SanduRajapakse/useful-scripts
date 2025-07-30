@@ -1,0 +1,11 @@
+==== Scheduler Test Log (-2025-07-29-_19-57-01) ==== 
+Timestamp: 2025-07-29 19:57:01.89 
+User: Sandu 
+Script is running from: C:\Users\Sandu\Projects\useful-scripts\WindowsSchedulerTest\ 
+File creation: SUCCESS 
+Computer Name: DESKTOP-2AQ9A7T 
+User Profile: C:\Users\Sandu 
+TEMP Dir: C:\Users\Sandu\AppData\Local\Temp 
+TEMP directory write: SUCCESS 
+Script completed at: 19:57:01.98 
+============================== 

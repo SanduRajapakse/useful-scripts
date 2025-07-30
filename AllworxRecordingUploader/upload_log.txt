@@ -1,0 +1,100 @@
+==== Starting Rclone Move: 2025-07-29 21:23:01.61 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
+==== Starting Rclone Move: 2025-07-29 21:23:10.13 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
+2025/07/29 21:23:28 INFO  : TestFile_-2025-07-29-_21-21-29.txt: Copied (new)
+2025/07/29 21:23:28 INFO  : TestFile_-2025-07-29-_21-21-29.txt: Deleted
+2025/07/29 21:23:28 INFO  : 
+Transferred:   	         37 B / 37 B, 100%, 2 B/s, ETA 0s
+Checks:                 1 / 1, 100%, Listed 1
+Deleted:                1 (files), 0 (dirs), 37 B (freed)
+Renamed:                1
+Transferred:            1 / 1, 100%
+Elapsed time:        18.3s
+
+Rclone exit code: 0 
+==== Rclone Completed: 2025-07-29 21:23:28.70 ==== 
+ 
+==== Starting Rclone Move: 2025-07-29 21:24:01.61 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
+2025/07/29 21:24:37 INFO  : TestFile_-2025-07-29-_21-23-28.txt: Copied (new)
+2025/07/29 21:24:37 INFO  : TestFile_-2025-07-29-_21-23-28.txt: Deleted
+2025/07/29 21:24:37 INFO  : 
+Transferred:   	         37 B / 37 B, 100%, 2 B/s, ETA 0s
+Checks:                 1 / 1, 100%, Listed 1
+Deleted:                1 (files), 0 (dirs), 37 B (freed)
+Renamed:                1
+Transferred:            1 / 1, 100%
+Elapsed time:        35.6s
+
+Rclone exit code: 0 
+==== Rclone Completed: 2025-07-29 21:24:37.53 ==== 
+ 
+==== Starting Rclone Move: 2025-07-29 21:25:01.62 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
+2025/07/29 21:25:37 INFO  : TestFile_-2025-07-29-_21-24-37.txt: Copied (new)
+2025/07/29 21:25:37 INFO  : TestFile_-2025-07-29-_21-24-37.txt: Deleted
+2025/07/29 21:25:37 INFO  : 
+Transferred:   	         37 B / 37 B, 100%, 2 B/s, ETA 0s
+Checks:                 1 / 1, 100%, Listed 1
+Deleted:                1 (files), 0 (dirs), 37 B (freed)
+Renamed:                1
+Transferred:            1 / 1, 100%
+Elapsed time:        35.9s
+
+Rclone exit code: 0 
+==== Rclone Completed: 2025-07-29 21:25:37.82 ==== 
+ 
+==== Starting Rclone Move: 2025-07-29 21:26:01.60 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
+2025/07/29 21:26:37 INFO  : TestFile_-2025-07-29-_21-25-37.txt: Copied (new)
+2025/07/29 21:26:37 INFO  : TestFile_-2025-07-29-_21-25-37.txt: Deleted
+2025/07/29 21:26:37 INFO  : 
+Transferred:   	         37 B / 37 B, 100%, 2 B/s, ETA 0s
+Checks:                 1 / 1, 100%, Listed 1
+Deleted:                1 (files), 0 (dirs), 37 B (freed)
+Renamed:                1
+Transferred:            1 / 1, 100%
+Elapsed time:        36.0s
+
+Rclone exit code: 0 
+==== Rclone Completed: 2025-07-29 21:26:37.87 ==== 
+ 
+==== Starting Rclone Move: 2025-07-29 21:27:01.59 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
+2025/07/29 21:27:38 INFO  : TestFile_-2025-07-29-_21-26-37.txt: Copied (new)
+2025/07/29 21:27:38 INFO  : TestFile_-2025-07-29-_21-26-37.txt: Deleted
+2025/07/29 21:27:38 INFO  : 
+Transferred:   	         37 B / 37 B, 100%, 2 B/s, ETA 0s
+Checks:                 1 / 1, 100%, Listed 1
+Deleted:                1 (files), 0 (dirs), 37 B (freed)
+Renamed:                1
+Transferred:            1 / 1, 100%
+Elapsed time:        36.7s
+
+Rclone exit code: 0 
+==== Rclone Completed: 2025-07-29 21:27:38.58 ==== 
+ 
+==== Starting Rclone Move: 2025-07-29 21:28:01.63 ==== 
+RCLONE_EXE resolved to: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\rclone.exe" 
+From: "C:\Users\Sandu\Projects\useful-scripts\AllworxRecordingUploader\..\AllworxCallRecordings" 
+To:   "GDrive Allworx Recordings:" 
+Config: "C:\Users\Sandu\AppData\Local\Temp\rclone_allworx.conf" 
