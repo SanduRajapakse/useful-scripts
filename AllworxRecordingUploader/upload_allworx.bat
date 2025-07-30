@@ -6,9 +6,28 @@ set "SCRIPT_DIR=%~dp0"
 set "TARGET_DIR=%SCRIPT_DIR%..\AllworxCallRecordings"
 set "CONF_FILE=%SCRIPT_DIR%conf.txt"
 set "TOKEN_FILE=%SCRIPT_DIR%token.json"
-set "LOG_FILE=%SCRIPT_DIR%upload_log.txt"
+set "LOG_DIR=%SCRIPT_DIR%logs"
 set "TEMP_RCLONE_CONF=%TEMP%\rclone_allworx.conf"
-set "RCLONE_EXE=%~dp0rclone.exe"
+set "RCLONE_EXE=%SCRIPT_DIR%rclone.exe"
+
+:: Ensure logs directory exists
+if not exist "!LOG_DIR!" mkdir "!LOG_DIR!"
+
+:: Create timestamp for log file
+for /f "tokens=1-4 delims=/ " %%a in ("%DATE%") do (
+    set MM=%%a
+    set DD=%%b
+    set YYYY=%%c
+)
+set HH=%TIME:~0,2%
+set MN=%TIME:~3,2%
+set SS=%TIME:~6,2%
+if "%HH:~0,1%"==" " set HH=0%HH:~1,1%
+set "TIMESTAMP=%YYYY%-%MM%-%DD%_%HH%-%MN%-%SS%"
+set "LOG_FILE=!LOG_DIR!\upload_log_!TIMESTAMP!.txt"
+
+:: Delete logs older than 30 days
+powershell -Command "Get-ChildItem -Path '%LOG_DIR%' -Filter *.txt | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-30) } | Remove-Item -Force"
 
 :: Step 1: Create AllworxCallRecordings folder if it doesn't exist
 if not exist "!TARGET_DIR!" (
